@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/isksss/twitch-login-bot/issues"
   },
-  "homepage": "https://github.com/isksss/twitch-login-bot#readme"
+  "homepage": "https://github.com/isksss/twitch-login-bot#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "tmi.js": "^1.8.5"
+  }
 }
