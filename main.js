@@ -18,7 +18,7 @@ client.on('connected', onConnectedHandler);
 
 client.connect();
 
-function onMessageHandler (target, context, msg, self) {
+function onMessageHandler(target, context, msg, self) {
   if (self) { return; }
 
   const commandName = msg.trim();
@@ -31,6 +31,6 @@ function onMessageHandler (target, context, msg, self) {
   }
 }
 
-function onConnectedHandler (addr, port) {
+function onConnectedHandler(addr, port) {
   console.log(`* Connected to ${addr}:${port}`);
 }
